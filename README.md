@@ -43,15 +43,15 @@ dir1 = "~/LC716/bam.sc/"      #### Path to bam/sam files ######
 dir2 = "~/LC716/chimeric.sc.pairs.mapq40/"     #### Path to save all intermediate files ######****
 ```
 
-Set following two path for dataset in script "Hub.Step2.R". We have provided example for "cellnames" , "color.loc" in example.data directory. :
+Set following path for dataset in script "Hub.Step2.R". We have provided example for "cellnames" , "color.loc" in example.data directory. :
 ```
 dir<-'~/LC716/chimeric.sc.pairs.mapq40/'   #### Path to directory where all intermediate result files were saved in step1 (dir2 in step1)
 
 cellnames = "./example.data/LC716_MAPQ40_cell_names_Shreya_light.txt"     ###### Path to example data cellnames file
 color.loc = './example.data/color_20_YangOrder.txt'                       ###### Path to Color assigned to each celltype 
 
-metadata = '052124_LC716_MAPQ40_metadata_MultiContact.txt'      ###### Filename to save multiway Contacts metadata file
-final.result = 'hub_20celltypes_MAPQ40.txt'                     ###### Filename to save final hub file
+metadata = './052124_LC716_MAPQ40_metadata_MultiContact.txt'      ###### Filename to save multiway Contacts metadata file
+final.result = './hub_20celltypes_MAPQ40.txt'                     ###### Filename to save final hub file
 ```
 
 4. Run command below :
