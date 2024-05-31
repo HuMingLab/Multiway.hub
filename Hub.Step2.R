@@ -1,10 +1,13 @@
-cellnames = "/home/mishras10/LC716/LC716_MAPQ40_cell_names_Shreya_light.txt"
-dir<-'/home/mishras10/LC716/chimeric.sc.pairs.mapq40/'
-metadata = '/home/mishras10/LC716/052124_LC716_MAPQ40_metadata_MultiContact.txt'
-annotation = '/home/hum/022221_local_genomic_features_Yunjiang/mm10/MboI/F_GC_M_MboI_10Kb_el.mm10.txt'
-color.loc = '/home/mishras10/LC716/color_20_YangOrder.txt'
-mm10.blacklist = '/home/mishras10/LC716/10KbBin_mm10_blacklist.txt'
-final.result = '/home/mishras10/LC716/hub_20celltypes_MAPQ40.txt'
+dir<-'~/LC716/chimeric.sc.pairs.mapq40/'   #### Path to directory where all intermediate result files were saved in step1
+
+cellnames = "./example.data/LC716_MAPQ40_cell_names_Shreya_light.txt"     ###### Path to example data cellnames file
+color.loc = './example.data/color_20_YangOrder.txt'                       ###### Path to Color assigned to each celltype 
+
+mm10.blacklist = '10KbBin_mm10_blacklist.txt'     ##### Path to mm10 Blacklist region
+annotation = 'F_GC_M_MboI_10Kb_el.mm10.txt'       ##### Path to mm10 10Kb MboI annotation file
+
+metadata = '052124_LC716_MAPQ40_metadata_MultiContact.txt'      ###### Filename to save multiway Contacts metadata file
+final.result = 'hub_20celltypes_MAPQ40.txt'                     ###### Filename to save final hub file
 
 
 a <- read.table(cellnames, head=F)
