@@ -93,6 +93,7 @@ CTTCTAAAGAACTAAC:A01535:363:HFY77DSX7:4:1101:28004:1110	129	chr11	63144151	60	84
 ```
 
 #### 2.2 Metadata file with columns "Cellname","Celltype"
+```
 > head LC716_MAPQ40_cell_names_Shreya_light.txt
 AAACGAACAATCAGGG ITL6GL
 AAACGAACATCCGTGG D12MSN
@@ -104,9 +105,10 @@ AAACTCGAGTGAATAC ITL45GL
 AAACTCGCACTTTGGA MGL
 AAACTCGCATAAAGTG ITL5GL
 AAACTCGCATCCATAG ASC
-
+```
 
 #### 2.2 Color assignment file with columns "Celltype","Color"
+```
 Subclass	Subclass.color
 ASC	#A13F9E
 OGC	#985695
@@ -117,6 +119,7 @@ ITL23GL	#E59D9F
 ITL45GL	#DDA58F
 ITL5GL	#E1A462
 ITL6GL	#9E4954
+```
 
 ## Contact Us
 
