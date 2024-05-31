@@ -25,21 +25,26 @@ Download the github repository. Install all the requirements.
 
 Change the path of above mentioned files in following variables in R script "Multiway.Contacts.Step1.R" :
 
+```
 mm10.chrom.size = "./mm10.chrom.sizes"   ######## Path to mm10 chrom sizes file ########
 mm10.blacklist.region = "./mm10.blacklist.bed" ####### Path to mm10 Black list regions #########
-
+```
 Similarly change the path of above mentioned files in following variables in R script "Hub.Step2.R" :
 
+```
 mm10.blacklist = '10KbBin_mm10_blacklist.txt'     ##### Path to mm10 Blacklist region
 annotation = 'F_GC_M_MboI_10Kb_el.mm10.txt'       ##### Path to mm10 10Kb MboI annotation file
+```
 
 3. Set following two path for dataset in script "Multiway.Contacts.Step1.R" :
 
+```
 dir1 = "~/LC716/bam.sc/"      #### Path to bam/sam files ######
 dir2 = "~/LC716/chimeric.sc.pairs.mapq40/"     #### Path to save all intermediate files ######****
+```
 
 Set following two path for dataset in script "Hub.Step2.R". We have provided example for "cellnames" , "color.loc" in example.data directory. :
-
+```
 dir<-'~/LC716/chimeric.sc.pairs.mapq40/'   #### Path to directory where all intermediate result files were saved in step1 (dir2 in step1)
 
 cellnames = "./example.data/LC716_MAPQ40_cell_names_Shreya_light.txt"     ###### Path to example data cellnames file
@@ -47,9 +52,9 @@ color.loc = './example.data/color_20_YangOrder.txt'                       ######
 
 metadata = '052124_LC716_MAPQ40_metadata_MultiContact.txt'      ###### Filename to save multiway Contacts metadata file
 final.result = 'hub_20celltypes_MAPQ40.txt'                     ###### Filename to save final hub file
+```
 
-
-5. Run command below :
+4. Run command below :
 
 ```bash
 Rscript Multiway.Contacts.Step1.R
