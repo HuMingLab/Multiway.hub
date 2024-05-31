@@ -1,4 +1,4 @@
-dir<-'~/LC716/chimeric.sc.pairs.mapq40/'   #### Path to directory where all intermediate result files were saved in step1
+dir<-'~/LC716/chimeric.sc.pairs.mapq40/'   #### Path to directory where all intermediate result files were saved in step1 (dir2 in step1)
 
 cellnames = "./example.data/LC716_MAPQ40_cell_names_Shreya_light.txt"     ###### Path to example data cellnames file
 color.loc = './example.data/color_20_YangOrder.txt'                       ###### Path to Color assigned to each celltype 
