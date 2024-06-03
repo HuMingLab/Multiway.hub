@@ -54,7 +54,7 @@ metadata = './052124_LC716_MAPQ40_metadata_MultiContact.txt'      ###### Filenam
 final.result = './hub_20celltypes_MAPQ40.txt'                     ###### Filename to save final hub file
 ```
 
-4. **Note : Unzip all sam files in folder "./example.data/bam.sc/" before running further commands. **
+4. **Note : Unzip all sam files in folder "./example.data/bam.sc/" before running further commands.**
 
 4. Run command below :
 
