@@ -1,6 +1,6 @@
 # Multi-way Hub Identification
 
-**Last updated: May. 31, 2024**
+**Last updated: June. 3, 2024**
 
 ## Prerequisites
 
