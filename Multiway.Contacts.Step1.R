@@ -1,5 +1,5 @@
-dir1 = "~/LC716/bam.sc/"      #### Path to bam/sam files ######
-dir2 = "~/LC716/chimeric.sc.pairs.mapq40/"     #### Path to save all intermediate files ######
+dir1 = "./example.data/bam.sc/"      #### Path to bam/sam files ######
+dir2 = "./example.data/chimeric.sc.pairs.mapq40/"     #### Path to save all intermediate files ######
 mm10.chrom.size = "./mm10.chrom.sizes"   ######## Path to mm10 chrom sizes file ########
 mm10.blacklist.region = "./mm10.blacklist.bed" ####### Path to mm10 Black list regions #########
 
